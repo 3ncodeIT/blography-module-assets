@@ -1,0 +1,1 @@
+# blography-module-assets
