@@ -1,0 +1,14 @@
+{
+  "name": "3ncodeIT/blography-module-assets",
+  "version": "0.1.0",
+  "author": "Josh Harington | 3ncode",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "type": "package",
+  "autoload": {
+    "psr-4": {
+      "_3ncode\\Assets\\": "packages/3ncode/Assets/src"
+    }
+  }
+}
