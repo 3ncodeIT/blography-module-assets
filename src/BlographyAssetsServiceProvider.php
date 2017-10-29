@@ -20,13 +20,13 @@ class BlographyAssetsServiceProvider extends ServiceProvider {
     public function register() {
 
         try {
-            rename(base_path('public/assets'), base_path('public/assets-original'));
+            rename(base_path('resources/assets'), base_path('resources/assets-original'));
         } catch(\Exception $e) {
 
         }
 
         $this->publishes([
-            __DIR__.'/public/assets' => base_path('public/assets')
+            __DIR__.'/public/assets' => base_path('resources/assets')
         ]);
     }
 

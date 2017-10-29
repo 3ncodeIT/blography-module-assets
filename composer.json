@@ -8,7 +8,7 @@
   "type": "package",
   "autoload": {
     "psr-4": {
-      "_3ncode\\Assets\\": "packages/3ncode/Assets/src"
+      "_3ncode\\Assets\\": "src"
     }
   }
 }
